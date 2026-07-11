@@ -10,7 +10,7 @@ Se utilizó el dataset público de **Olist** (e-commerce brasileño), procesando
 * **Machine Learning:** BigQuery ML (Regresión Logística Binaria)
 * **Visualización:** Power BI / DAX 
 
-## 🏗️ Arquitectura de Datos y Feature Engineering
+## Arquitectura de Datos y Feature Engineering
 Para entrenar el modelo, se construyó una **Tabla Maestra** consolidando datos de las tablas `orders`, `customers` y `payments`. 
 Se aplicaron reglas de negocio estrictas:
 1. **Filtro de transacciones reales:** Solo se consideraron órdenes con estado `delivered` para asegurar que el ciclo de vida del cliente haya iniciado efectivamente.
@@ -31,3 +31,5 @@ Al evaluar las probabilidades de predicción generadas por la IA contra la reali
 * `/sql/01_data_preparation.sql`: Limpieza y consolidación de la tabla maestra RFM.
 * `/sql/02_model_training.sql`: Entrenamiento del modelo logístico manejando el desbalance de clases.
 * `/sql/03_model_prediction.sql`: Extracción de las probabilidades exactas de recompra.
+
+![Dashboard Power BI](dashboard_olist.png)
