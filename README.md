@@ -32,4 +32,5 @@ Al evaluar las probabilidades de predicción generadas por la IA contra la reali
 * `/sql/02_model_training.sql`: Entrenamiento del modelo logístico manejando el desbalance de clases.
 * `/sql/03_model_prediction.sql`: Extracción de las probabilidades exactas de recompra.
 
-![Dashboard Power BI](dashboard_olist.png)
+<img width="1102" height="620" alt="dashboard_olist png" src="https://github.com/user-attachments/assets/ac87fe29-a440-45ab-bfb9-91f4811a8f57" />
+
